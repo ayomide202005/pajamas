@@ -8,7 +8,7 @@ function ProblemSection() {
       transition={{ duration: 0.5 }}
       className="py-16 bg-gray-100 overflow-hidden"
     >
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto p-12">
         <motion.h2
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

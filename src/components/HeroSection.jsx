@@ -62,11 +62,12 @@ function HeroSection() {
           transition={{ duration: 0.5, delay: 0.6 }}
         >
           <Link
-            to="/shop"
-            className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 transition-colors text-lg"
-          >
-            Shop Now and Experience the Sleepeez Difference!
-          </Link>
+  to="/shop"
+  className="bg-white text-purple-600 px-4 py-2 rounded-full font-semibold hover:bg-purple-100 transition-colors text-base md:text-lg w-full md:w-auto text-center block"
+>
+  Shop Now and Experience the Sleepeez Difference!
+</Link>
+
         </motion.div>
       </div>
     </motion.div>
